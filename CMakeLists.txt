@@ -9,3 +9,4 @@ target_link_libraries(test
 add_executable(generate_key src/generate_key.cpp)
 target_link_libraries(generate_key
         yaml-cpp)
+
