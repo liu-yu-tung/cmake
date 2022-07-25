@@ -6,6 +6,6 @@ int main() {
     const auto test = file["test"];
     int test1 = test["test1"].as<double>();
     int test2 = test["test2"].as<double>();
-    std::cout << test1 << test2 << std::endl;
+    std::cout << test1 << std::endl << test2 << std::endl;
     return 0;
 }

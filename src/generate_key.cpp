@@ -8,7 +8,7 @@ std::string answer[4] = {
     "cfca6ccd4eb08093dac12e9096a54a4e61a413b28d2b9b30d45f6482f153e272" // good_merge3
 };
 int main() {
-    YAML::Node file = YAML::LoadFile("task4.yaml");
+    YAML::Node file = YAML::LoadFile("../doc/task4.yaml");
     const auto git = file["git"];
     std::string line[4];
     for(int i = 0; i < 4; i++) {
